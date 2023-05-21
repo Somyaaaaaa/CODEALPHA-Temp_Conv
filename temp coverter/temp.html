@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempreture Converter</title>
+     <!--Google font-->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+      
+     <!--stylesheet-->
+    
+    <link rel="stylesheet" href="temp.css">
+
+</head>
+<body>
+ <div class="container">
+        <div class="heading">
+            <h1>Tempreture Converter</h1>
+            <span class="Temperature-icon"><i class="fa-solid fa-temperature-three-quarters Temperature-icon"></i></span>
+        </div>
+
+    
+        <input type="number" id="celsius" name="" placeholder="Celsius" oninput= "celToFar()">
+        <span class="icon">&#8451</span>
+        
+        
+        <input type="number" id="fahrenheit" name="" placeholder="Fahrenheit"  oninput = "farToCel()">
+        <span class="icon">&#8457</span>
+        <div class="button">
+            <button>Clear</button>
+        </div>
+ </div>
+
+    <script src="temp.js"></script>
+
+    
+</body>
+</html>
